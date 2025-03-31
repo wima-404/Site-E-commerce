@@ -1,0 +1,118 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page d'inscription</title>
+    <!--Made with love by Mutiullah Samim -->
+
+    <!--Bootsrap 4 CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Fontawesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!--Custom styles-->
+    <link rel="stylesheet" type="text/css" href="css/stylesAuth.css">
+</head>
+
+<body>
+    <div class="container register">
+        <div class="row">
+            <div class="col-md-3 register-left">
+                <!--https://image.ibb.co/n7oTvU/logo_white.png-->
+                <img src="img/cover.png" alt="" />
+                <!--#3931af  #00c6ff  #fbff00  f8f9fa  fff-->
+                <input type="submit" name="" value="Retour" /><br />
+            </div>
+            <div class="col-md-9 register-right">
+                <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link " id="home-tab" data-toggle="tab" href="ajouter_prod.html" role="tab"
+                            aria-controls="home" aria-selected="false">Ajouter </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="profile-tab" data-toggle="tab" href="modifier_prod.html"
+                            role="tab" aria-controls="profile" aria-selected="true">Modifier</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="supp_prod.html" role="tab"
+                            aria-controls="profile" aria-selected="false">Supprimer</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <h3 class="register-heading">Modifier un produit</h3>
+                        <div class="row register-form">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <p>Entrer l'ID de votre produit:
+                                    <input type="text" class="form-control" placeholder="ID *" value="" />
+                                    
+                                </p>
+                                </div>
+                                
+
+                            </div>
+                            <div class="col-md-6">
+                                <p><input type="submit" class="btnRegister" value="Rechercher" /></p>
+
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <p>Libelle:<input type="text" class="form-control"  value="" /></p>
+                                </div>
+                                <div class="form-group">
+                                   <p>Code Barre:<input type="text" class="form-control" value="" /></p> 
+                                </div>
+                                <div class="form-group">
+                                    <p>Prix:<input type="text" class="form-control" value="" /></p>
+                                </div>
+
+                            </div>
+                            <p></p>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Categorie:</label>
+                                    <div class="maxl">
+                                        <label class="radio inline">
+                                            <input type="radio" name="gender" value="Homme" >
+                                            <span> Poissons frais </span>
+                                        </label>
+                                        <br />
+                                        <label class="radio inline">
+                                            <input type="radio" name="gender" value="femme">
+                                            <span> Homard </span>
+                                        </label>
+                                        <br />
+                                        <label class="radio inline">
+                                            <input type="radio" name="gender" value="femme">
+                                            <span> Fruits de mer </span>
+                                        </label>
+                                        <br />
+                                        <label class="radio inline">
+                                            <input type="radio" name="gender" value="femme">
+                                            <span> Epicerie de mer </span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <input type="submit" class="btnRegister" value="Modifier" />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
